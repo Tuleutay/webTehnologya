@@ -2,7 +2,7 @@ html{
     background-color:#B0C4DE;
 }
 h1{
-
+    font-family: 'beer money';
     color: #FF0000;
 }
 
@@ -12,4 +12,32 @@ h2{
 
 a{
     color: #00FF00;
+}
+
+img{
+    width: 100px;
+}
+
+.img200{
+    width: 200px;
+}
+
+.img300{
+    width: 300px;
+}
+
+.best{
+    font-size: 2rem;
+    color: rgb= rgb(79, 23, 220);
+
+}
+
+@font-face {
+	font-family: 'beer money';
+	src: url('source/fonts/beer_money.eot'); /* IE 9 Compatibility Mode */
+	src: url('source/fonts/beer_money.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('source/fonts/beer_money.woff2') format('woff2'), /* Super Modern Browsers */
+		url('source/fonts/beer_money.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('source/fonts/beer_money.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('source/fonts/beer_money.svg#beer_money') format('svg'); /* Chrome < 4, Legacy iOS */
 }
